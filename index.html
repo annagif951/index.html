@@ -1,102 +1,85 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>html document</title>
-    </head>
-    <body>
-        <h1>external image</h1>
-        <image src="https://www.pexels.com/photo/young-woman-embracing-nature-in-springtime-31197867/"alternative="Young Woman Embracing Nature in Springtime
-        "></image>
-        <h2>HTML TABLES</h2>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Page</title>
+    <!-- Link the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> This is my styled css page wonderfully done by Mariella</h1>
+        <p>
+            <a href="https://www.sololearn.com">Visit Sololearn</a>
+        </p>
+    </header>
+    <div class="container">
+        <h1 id="main-heading">Welcome to My Styled Page</h1>
+        <p>This is a paragraph styled using CSS. Isn’t it aesthetically pleasing</p>
+<img src="https://www.sololearn.com/uploads/slider/1.jpg" alt="SoloLearn">
+        <p>Here is a list of items I love:</p>
+        <ul>
+            <li>Learning</li>
+            <li>Sharing</li>
+            <li>Teaching</li>
+        </ul>
+        <p>Here is a table of items I plan to learn:</p>
         <table border="1">
-            <thead>
-                <tr>
-                    <th>name</th>
-                    <th>email</th>                    
-                    <th>adress</th>
-                    <th>mobile</th>
-                        </tr>
-            </thead>
-            <tablebody>
-                <tr>
-                    <td>maryanne</td>
-                    <td>@wairimumaryanngmail.com</td >
-                        <td>P.O BOX I7 UKARE</td>                    
-  
-                    <td>0746392390</td>
-                    <tr>
-                        <td>maryanne</td>
-                        <td>lisam@yahoo.com</td>
-                        <td>P.BOX 67 UKAME</td>
-                        <td>075645378</td>
-
-
-  
-                    </tr>
-                    <tr>
-                        <td>anaa</td>
-                        <td>anna9@gmail.com</td>
-                        <td>P.OBOX54 UKARU</td>
-                        <td>0785674392</td>
-
-
-
-                    </tr>
-                    <tr>
-
-                    </tr>
-                        <td>mercy</td>
-                        <td>merc.comy6@outlook.com</td>
-                        <td>P.O BOX 76 UKARU</td>
-                        <td>0768567890</td>
-
- 
-
-
-
-                </tr>
-                <tr>
-                    <td>mercy</td>
-                    <td>linda67@mail.com</td>
-                    <td></td>P.O BOX98 UKARU
-                    <td>07868                    
-                    75689</td>
-
-                </tr>
-                <tr>
-                    <td>ali</td>
-                    <td>ali76@yahhoo.com</td>
-                    <td>P.O BOX 78 UKARU</td>
-                    <td>078566584</td>
-
-                </tr>
-            </tablebody>
+            <tr>
+                <th>Item</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>20 hours</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>20 hours</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>20 hours</td>
+            </tr>
         </table>
-        <h2>REGISTRATION FORM</h2>
-        <form action="helb scholarship">
-            <label for="name">name</label>
-            <input type="text"id="name"name="name"required placeholder="e.g john doe">
-            <label for="email">email</label>r
-            <input type="email"id="email"name="email"required placeholder="john@gmail.com">
-            <label for="password">password</label>
-            <input type="password"id="password"name="password"required placeholder="1234">
-            <label for="date of birth">date of birth</label>
-            <input type="date"id="date of birth"name="date of birth"required placeholder="12/12/1990">
+        <p>Here is a form to submit your email:</p>
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>placeholder="joe@gmail.com">
+            <br>
+            <label for="password">Password:</label>
+<input type="password" id="password" name="password" required>placeholder="123456">
+            <br>
+            <label for="message">Message:</label>
+<textarea id="message" name="message" required></textarea>
+            <br>
+            <label for="subscribe">Subscribe:</label>
+<input type="checkbox" id="subscribe" name="subscribe" checked>
+            <br>
+        <label for="phone number">Phone Number:</label>
+<input type="tel" id="phone number" name="phone number" required>
+            <br>
+            <label for="birthday">Birthday:</label>
+<input type="date" id="birthday" name="birthday" required>
+            <br>
 <label for="hobbies">hobbies</label>
-<input type="checkbox"id="hobbies"name="hobbies"value="travel">travel
-<input type="checkbox"id="hobbies"name="hobbies"value="reading">reading 
-<input type="checkbox"id="hobbies"name="hobbies"value="music">music
-<input type="checkbox"id="hobbies"name="hobbies"value="dancing">dancing 
-<input type="checkbox"id="hobbies"name="hobbies"value="swimming">swimming
-<label for="counntry">country</label>
-<select name="country"id="country"required>
-    <option value="kenya">kenya</option>
-    <option value="uganda">uganda</option>
-    <option value="tanzania">tanzania</option>
-    <option value="rwanda">rwanda</option>
-    <option value="burundi">burundi</option>
-</select>
- </form>
+<input type="checkboxe" id="swimming" name="swimming" required>
+<input type="checkboxe" id="reading" name="reading" required>
+<input type="checkboxe" id="dancing" name="dancing" required>
+            <br>
 
-    </body>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+
+
+
+    </div>
+    <footer>
+        <p>&copy; 2020 My Styled Page. All rights reserved.</p>
+        <p>Created by <a href="https://www.sololearn.com/profile/1854341">Mariella</a></p>
+
+    </footer>
+</body>
 </html>
